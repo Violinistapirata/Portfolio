@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body class="text-green-50">
-    <header id="header" class="bg-green-700">
+  <body class="text-green-50 bg-stone-800">
+    <header id="header" class="bg-green-800">
       <nav class="h-16 flex items-center shadow-sm sticky top-0 sm:justify-around">
         <button id="menu-button" class="absolute left-2 sm:hidden">
           <svg
@@ -40,8 +40,8 @@
           <li>
             <a href="reviews">Reseñas</a>
           </li>
-          <li>
-            <button class="sm:hidden">
+          <li  class="sm:hidden">
+            <button>
               <svg
                 width="40px"
                 height="40px"
@@ -64,6 +64,27 @@
         </ul>
       </nav>
     </header>
+    <section>
+      <article class="max-w-72 mx-auto py-15 flex flex-wrap items-center justify-between sm:max-w-screen-lg">
+        <img class="w-72 h-72 object-cover mx-auto rounded-full" src="./assets/profile-img.jpg" alt="imagen de perfil de Èric">
+        <div class="mx-auto my-4 flex flex-col gap-10">
+          <h2 class="mx-auto bg-gradient-to-r from-[#08FF09] to-[#a15be7] bg-clip-text text-transparent text-6xl text-center font-black sm:mx-0 sm:text-left">¡Hola!</h2>
+          <p class="text-lg text-center sm:text-left">Bienvenidx a mi mundo. Date una vuelta y descubre más sobre mí y mis proyectos 😉</p>
+          <ul class="flex justify-center gap-10 sm:justify-start">
+            <li>
+              <a target="_blank" href="https://www.linkedin.com/in/eric-masip-web-dev/">
+                <img src="./assets/linkedin-logo.svg" alt="icono de LinkedIn">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/Violinistapirata">
+                <img src="./assets/github-logo.svg" alt="icono de Github">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </section>
     <script src="./scripts/navigation.js"></script>
   </body>
 </html>

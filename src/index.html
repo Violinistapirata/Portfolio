@@ -1,13 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body class="text-green-50 bg-stone-800">
+  <body class="bg-stone-800 text-green-50">
     <header id="header" class="bg-green-800">
-      <nav class="h-16 flex items-center shadow-sm sticky top-0 sm:justify-around">
+      <nav
+        class="sticky top-0 flex h-16 items-center shadow-sm sm:justify-around"
+      >
         <button id="menu-button" class="absolute left-2 sm:hidden">
           <svg
             width="40px"
@@ -26,11 +28,14 @@
           </svg>
         </button>
         <h1
-          class="mx-auto bg-gradient-to-r from-[#08FF09] to-[#a15be7] bg-clip-text text-transparent text-2xl font-black sm:mx-0"
+          class="mx-auto bg-gradient-to-r from-[#08FF09] to-[#a15be7] bg-clip-text text-2xl font-black text-transparent sm:mx-0"
         >
           &lt; Èric Masip Vilalta /&gt;
         </h1>
-        <ul id="nav-menu" class="absolute top-0 hidden flex-col justify-around text-center text-2xl font-bold h-dvh w-dvw bg-green-700 sm:static sm:flex sm:h-auto sm:w-1/2 sm:flex-row sm:justify-between sm:bg-transparent sm:text-sm sm:text-left">
+        <ul
+          id="nav-menu"
+          class="absolute top-0 hidden h-dvh w-dvw flex-col justify-around bg-green-700 text-center text-2xl font-bold sm:static sm:flex sm:h-auto sm:w-1/2 sm:flex-row sm:justify-between sm:bg-transparent sm:text-left sm:text-sm"
+        >
           <li>
             <a href="about-me">Sobre mí</a>
           </li>
@@ -40,7 +45,7 @@
           <li>
             <a href="reviews">Reseñas</a>
           </li>
-          <li  class="sm:hidden">
+          <li class="sm:hidden">
             <button>
               <svg
                 width="40px"
@@ -65,20 +70,36 @@
       </nav>
     </header>
     <section>
-      <article class="max-w-72 mx-auto py-15 flex flex-wrap items-center justify-between sm:max-w-screen-lg">
-        <img class="w-72 h-72 object-cover mx-auto rounded-full" src="./assets/profile-img.jpg" alt="imagen de perfil de Èric">
+      <article
+        class="mx-auto flex max-w-72 flex-wrap items-center justify-between py-15 sm:max-w-screen-lg"
+      >
+        <img
+          class="mx-auto h-72 w-72 rounded-full object-cover"
+          src="./assets/profile-img.jpg"
+          alt="imagen de perfil de Èric"
+        />
         <div class="mx-auto my-4 flex flex-col gap-10">
-          <h2 class="mx-auto bg-gradient-to-r from-[#08FF09] to-[#a15be7] bg-clip-text text-transparent text-6xl text-center font-black sm:mx-0 sm:text-left">¡Hola!</h2>
-          <p class="text-lg text-center sm:text-left">Bienvenidx a mi mundo. Date una vuelta y descubre más sobre mí y mis proyectos 😉</p>
+          <h2
+            class="mx-auto bg-gradient-to-r from-[#08FF09] to-[#a15be7] bg-clip-text text-center text-6xl font-black text-transparent sm:mx-0 sm:text-left"
+          >
+            ¡Hola!
+          </h2>
+          <p class="text-center text-lg sm:text-left">
+            Bienvenidx a mi mundo. Date una vuelta y descubre más sobre mí y mis
+            proyectos 😉
+          </p>
           <ul class="flex justify-center gap-10 sm:justify-start">
             <li>
-              <a target="_blank" href="https://www.linkedin.com/in/eric-masip-web-dev/">
-                <img src="./assets/linkedin-logo.svg" alt="icono de LinkedIn">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/eric-masip-web-dev/"
+              >
+                <img src="./assets/linkedin-logo.svg" alt="icono de LinkedIn" />
               </a>
             </li>
             <li>
               <a target="_blank" href="https://github.com/Violinistapirata">
-                <img src="./assets/github-logo.svg" alt="icono de Github">
+                <img src="./assets/github-logo.svg" alt="icono de Github" />
               </a>
             </li>
           </ul>

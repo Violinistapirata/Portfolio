@@ -6,10 +6,8 @@
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body class="bg-stone-800 text-green-50">
-    <header id="header" class="bg-green-800">
-      <nav
-        class="sticky top-0 flex h-16 items-center shadow-sm sm:justify-around"
-      >
+    <header id="header" class="sticky flex justify-center top-0 bg-green-800">
+      <nav class="px-8 w-full flex h-16 items-center shadow-sm sm:justify-between sm:max-w-10/12 xl:max-w-screen-lg">
         <button id="menu-button" class="absolute left-2 sm:hidden">
           <svg
             width="40px"
@@ -30,20 +28,22 @@
         <h1
           class="mx-auto bg-gradient-to-r from-[#08FF09] to-[#a15be7] bg-clip-text text-2xl font-black text-transparent sm:mx-0"
         >
-          &lt; Èric Masip Vilalta /&gt;
+          <a href="#hero">
+            &lt; Èric Masip Vilalta /&gt;
+          </a>
         </h1>
         <ul
           id="nav-menu"
           class="absolute top-0 hidden h-dvh w-dvw flex-col justify-around bg-green-700 text-center text-2xl font-bold sm:static sm:flex sm:h-auto sm:w-1/2 sm:flex-row sm:justify-between sm:bg-transparent sm:text-left sm:text-sm"
         >
           <li>
-            <a href="about-me">Sobre mí</a>
+            <a href="#about-me">Sobre mí</a>
           </li>
           <li>
-            <a href="projects">Proyectos</a>
+            <a href="#projects">Proyectos</a>
           </li>
           <li>
-            <a href="reviews">Reseñas</a>
+            <a href="#reviews">Reseñas</a>
           </li>
           <li class="sm:hidden">
             <button>
@@ -69,23 +69,24 @@
         </ul>
       </nav>
     </header>
-    <section>
+
+    <section id="hero" class="min-h-dvh lg:min-h-fit">
       <article
-        class="mx-auto flex max-w-72 flex-wrap items-center justify-between py-15 sm:max-w-screen-lg"
+        class="mx-auto flex gap-5 max-w-72 flex-wrap items-center justify-between py-15 sm:max-w-10/12 xl:max-w-screen-lg"
       >
         <img
-          class="mx-auto h-72 w-72 rounded-full object-cover"
+          class="mx-auto max-w-2/3 rounded-full sm:max-w-72"
           src="./assets/profile-img.jpg"
           alt="imagen de perfil de Èric"
         />
         <div class="mx-auto my-4 flex flex-col gap-10">
           <h2
-            class="mx-auto bg-gradient-to-r from-[#08FF09] to-[#a15be7] bg-clip-text text-center text-6xl font-black text-transparent sm:mx-0 sm:text-left"
+            class="w-fit mx-auto bg-gradient-to-r from-[#08FF09] to-[#a15be7] bg-clip-text text-center text-6xl font-black text-transparent sm:mx-0 sm:text-left"
           >
             ¡Hola!
           </h2>
           <p class="text-center text-lg sm:text-left">
-            Bienvenidx a mi mundo. Date una vuelta y descubre más sobre mí y mis
+            Bienvenid@ a mi mundo. Date una vuelta y descubre más sobre mí y mis
             proyectos 😉
           </p>
           <ul class="flex justify-center gap-10 sm:justify-start">
@@ -104,6 +105,40 @@
             </li>
           </ul>
         </div>
+      </article>
+    </section>
+
+    <section id="about-me" class="bg-green-700">
+      <article class="mx-auto flex flex-col gap-10 max-w-72 flex-wrap items-center justify-between py-15 sm:max-w-10/12 xl:max-w-screen-lg">
+        <h3 class="text-4xl font-bold">Sobre mí</h3>
+        <p>
+          <span class="font-bold"></span>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam
+          corrupti tempora nesciunt beatae sint officia dolorum quis doloribus
+          mollitia labore, recusandae illo libero exercitationem fuga velit
+          architecto rerum dicta eius.
+        </p>
+        <p>
+          <span class="font-bold"></span>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam
+          corrupti tempora nesciunt beatae sint officia dolorum quis doloribus
+          mollitia labore, recusandae illo libero exercitationem fuga velit
+          architecto rerum dicta eius.
+        </p>
+        <p>
+          <span class="font-bold"></span>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam
+          corrupti tempora nesciunt beatae sint officia dolorum quis doloribus
+          mollitia labore, recusandae illo libero exercitationem fuga velit
+          architecto rerum dicta eius.
+        </p>
+        <p>
+          <span class="font-bold"></span>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam
+          corrupti tempora nesciunt beatae sint officia dolorum quis doloribus
+          mollitia labore, recusandae illo libero exercitationem fuga velit
+          architecto rerum dicta eius.
+        </p>
       </article>
     </section>
     <script src="./scripts/navigation.js"></script>

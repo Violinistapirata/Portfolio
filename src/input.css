@@ -1,4 +1,21 @@
 @import "tailwindcss";
+@font-face{
+    font-family: 'Mars Project';
+    src:url('/src/assets/Fonts/mars-project/Mars Project/FONT/Mars-Project.otf') format('otf'),
+        url('/src/assets/Fonts/Mars-Project.ttf') format('ttf'),
+        url('/src/assets/Fonts/mars-project/Mars Project/FONT/Mars-Project.woff') format('woff');
+    font-weight: 400; /* (regular) */
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Mars Project';
+    src:url('/src/assets/Fonts/mars-project/Mars Project/FONT/Mars-Project.otf') format('otf'),
+        url('/src/assets/Fonts/mars-project/Mars Project/FONT/Mars-Project.ttf') format('ttf'),
+        url('/src/assets/Fonts/mars-project/Mars Project/FONT/Mars-Project.woff') format('woff');
+    font-weight: 700; /* (bold) */
+    font-style: normal;
+}
 
 @theme{
     --animate-slide-in: slide-in 0.5s ease-in-out;
@@ -21,4 +38,6 @@
             transform: translate(-100%)
         }
     }
+
+
 } 

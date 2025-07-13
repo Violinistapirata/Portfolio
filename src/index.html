@@ -6,8 +6,10 @@
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body class="bg-stone-800 text-green-50">
-    <header id="header" class="sticky flex justify-center top-0 bg-green-800">
-      <nav class="px-8 w-full flex h-16 items-center shadow-sm sm:justify-between sm:max-w-10/12 xl:max-w-screen-lg">
+    <header id="header" class="sticky top-0 flex justify-center bg-green-800">
+      <nav
+        class="flex h-16 w-full items-center px-8 shadow-sm sm:max-w-10/12 sm:justify-between xl:max-w-screen-lg"
+      >
         <button id="menu-button" class="absolute left-2 sm:hidden">
           <svg
             width="40px"
@@ -28,9 +30,7 @@
         <h1
           class="mx-auto bg-gradient-to-r from-[#08FF09] to-[#a15be7] bg-clip-text text-xl font-black text-transparent sm:mx-0"
         >
-          <a href="#hero">
-            &lt; Èric Masip Vilalta /&gt;
-          </a>
+          <a href="#hero"> &lt; Èric Masip Vilalta /&gt; </a>
         </h1>
         <ul
           id="nav-menu"
@@ -72,7 +72,7 @@
 
     <section id="hero" class="min-h-dvh lg:min-h-fit">
       <article
-        class="mx-auto flex gap-5 max-w-72 flex-wrap items-center justify-between py-15 sm:max-w-10/12 xl:max-w-screen-lg"
+        class="mx-auto flex max-w-72 flex-wrap items-center justify-between gap-5 py-15 sm:max-w-10/12 xl:max-w-screen-lg"
       >
         <img
           class="mx-auto max-w-2/3 rounded-full sm:max-w-72"
@@ -81,7 +81,7 @@
         />
         <div class="mx-auto my-4 flex flex-col gap-10">
           <h2
-            class="w-fit mx-auto bg-gradient-to-r from-[#08FF09] to-[#a15be7] bg-clip-text text-center text-6xl font-black text-transparent sm:mx-0 sm:text-left"
+            class="mx-auto w-fit bg-gradient-to-r from-[#08FF09] to-[#a15be7] bg-clip-text text-center text-6xl font-black text-transparent sm:mx-0 sm:text-left"
           >
             ¡Hola!
           </h2>
@@ -109,98 +109,180 @@
     </section>
 
     <section id="about-me" class="bg-green-700 py-15">
-      <article class="mx-auto flex flex-col gap-10 text-lg max-w-72 flex-wrap items-center justify-between sm:max-w-10/12 xl:max-w-screen-lg">
+      <article
+        class="mx-auto flex max-w-72 flex-col flex-wrap items-center justify-between gap-10 text-lg sm:max-w-10/12 xl:max-w-screen-lg"
+      >
         <h3 class="text-4xl font-bold">Sobre mí</h3>
-        <p>
-          <ul>
-          <span class="text-2xl font-bold">🎢 Mi camino hacia el desarrollo web </span>
-            <li>
-              El mejor violinista del mundo! 🎻 Me inicié en el mundo de la música con solo 3 añitos y enseguida demostré muy buenas aptitudes en cuanto a oído musical y sensibilidad. De pequeño mi sueño era convertirme en un gran violinista y ser muy famoso. Comprendía bien la lógica del lenguaje musical y de vez en cuando hasta hacía mis propias composiciones. Estudié toda la carrera de violinista hasta acabar el grado superior de interpretación de violín en el Conservatorio Superior del Liceu de Barceelona. Después trabajé como violinista en varias orquestas de la zona metropolitana de Barcelona y de los alrededores, como la Orquestra Simfònica del Vallès y la Jove Orquestra Filharmònica de Catalunya, entre otras, y también di clases de violín en escuelas de música y para particulares. Pero aún así, la exigencia del mundo artístico y las pésimas condiciones laborales hicieron que tuviera que renunciar a esa idea, lo que me llevó a mi siguiente trabajo...      
-            </li>
-            <li>
-              La vuelta al cole 👨‍🏫 En busca de estabilidad económica y vital (y sin saber muy bien cómo) acabé entrando en el mundo de la educación pública impartiendo clases de música en la ESO. Por un lado conseguí la estabilidad económica que había anhelado durante tanto tiempo. Por otro lado, tuve que lidiar con crisis de ansiedad casi a diario, lo que me generó mucho malestar y un gran desgaste emocional. Aún así, con el tiempo fuí aprendiendo a lidiar con esa ansiedad y eso me fortaleció en muchos sentidos, proporcionandome valiosas herramientas de gestión emocional y también habilidades de liderazgo positivo, resiliencia, comunicación asertiva, trabajo en equipo, y más. Y cuando ya me había hecho a la idea de que trabajaría toda la vida como profesor, de pronto algo ocurrió...
-            </li>
-            <li>
-              Mi gran descubrimiento 💻 Gracias a una app móbil de aprendizaje sobre lenguajes de programación, empecé a interesarme por el desarrollo web. Al instante quedé maravillado y cuanto más aprendía más fascinación me despertaba este mundo que se abría ante mis ojos. Desde el primer minuto supe que esto era lo que quería hacer el resto de mi vida, así que dejé sin vacilar mi trabajo de profesor y me lancé de cabeza al mundo del desarrollo web. Gracias al bootcamp intensivo de Ironhack y a la inestimable ayuda de nuestro mentor Marcel y tod@s mis compañer@s aprendí las bases que me permitirían diseñar y construir aplicaciones web desde cero siguiendo siempre las mejores prácticas y asegurando un resultado de calidad. Ahora mi objetivo es seguir aprendiendo, descubriendo y mejorando, con el estudio y la práctica, en este vasto y fascinante mundo que es el sector tech y el desarrollo web.
-            </li>
-          </ul>
-        </p>
-        <p>
-          <span class="text-2xl font-bold">🧞Mi trabajo ideal</span>
-          Lo que me apasiona del desarrollo web son las infinitas posibilidades que ofrece para desarrollar la creatividad y encontrar la forma de hacer realidad las ideas que surgen de nuestra mente, como si de un genio de la lámpara se tratase te da la capacidad de crear de la nada cualquier cosa que desees (no sin unos cuantos quebraderos de cabeza y algunas horillas resolviendo bugs 😅). Pero oye, ¿y lo bien que me lo paso dándole vueltas al coco para encontrar lo que falla y la forma de arreglarlo? Y lo mejor de todo es la sensación de euforia y orgullo que me invade cuando logro que todo funcione a las mil maravillas, yo creo que hay pocas sensaciones más placenteras en la vida. Mi trabajo ideal sería uno en el que además de tener una buena estabilidad económica pueda dedicarme a lo que me apasiona y además crear herramientas que puedan ser prácticas y útiles para las personas, que les faciliten la vida, les ahorren tiempo que puedan invertir en sí mismas o en sus seres queridos y que les ayuden a mejorar día a día ya sea a nivel personal o profesional. Es por esto que siento que en el mundo tech he encontrado por fin mi lugar.
-        </p>
-        <p>
-          <ul>
-            <span class="text-2xl font-bold">💡Curiosidades</span>
-            <li>
-              El Violinista Pirata☠️🎻: Mi nickname surgió por una pieza musical para violín y piano que escribió para mí la talentosa soprano y compositora catalana Anna Campmany y que tiene un aire piratesco muy característico.
-            </li>
-            <li>
-              Mi lado friki 👾: Entre mis aficiones destacan los juegos de mesa, los videojuegos, ver anime y, muy recientemente, la esgrima histórica japonesa. Por otro lado, me gustan y se me dan bien los juegos de estrategia como el ajedrez y soy un ferviente apasionado del futbolín.
-            </li>
-            <li>
-              Tu bachatero mami🕺: Pese a mi apariencia tranquila, me gustan mucho los bailes latinos y me defiendo bastante bien bailando salsa y bachata.
-            </li>            
-          </ul>
-        </p>
-        <p>
-          <ul>
-          <span class="text-2xl font-bold">🌟Mis superpoderes</span>
-            <li>
-              Aura antiestrés 🧘‍♂️: Mi carácter tranquilo y apacible genera un efecto relajante en las personas de mi alrededor y mis abrazos pueden calmar la ansiedad y el estrés.
-            </li>
-            <li>
-              Confesionario 🗣️: Mi capacidad de escucha activa y mi actitud respetuosa y sociable hacen que a menudo la gente me cuente en confianza cosas muy personales. 
-            </li>
-            <li>
-              Oído absoluto 👂: Tengo la capacidad de detectar qué nota musical está sonando y también tocar de oído cualquier melodía con un instrumento musical (solo escuchándola unas pocas veces, sin necesidad de leer la partitura).
-            </li>
-            <li>
-              Chico con suerte 🍀: Me considero una persona bastante afortunada en general. Aunque este superpoder se puede volver en mi contra en los juegos de mesa ya que a veces la gente se cansa de jugar conmigo 😅
-            </li>
-            <li>
-              Cookie-parser 🍪: Me aficioné a la repostería y hago unas galletas de avena con chocolate buenísimas! Aceptas las cookies...? 
-            </li>
-
-          </ul>
-        </p>
+        <ul class="flex flex-col gap-10 text-green-50">
+          <li class="flex flex-col gap-5">
+            <h4 class="text-2xl font-bold">
+              🎢 Mi camino hacia el desarrollo web
+            </h4>
+            <p>
+              Empecé en el mundo de la música con solo 3 añitos y ya entonces me
+              atrajo la lógica detrás del lenguaje musical (mi primer lenguaje
+              de programación!😜). Estudié la carrera de violín en el Liceu de
+              Barcelona y trabajé en varias orquestas y dando clases de violín.
+              Pero aún así, las malas condiciones laborales me llevaron a buscar
+              otro oficio.
+            </p>
+            <p>
+              Ejercí unos años como profesor de música en centros públicos de
+              educación secundária con lo que conseguí la estabilidad económica
+              que anhelaba, pero a cambio tuve que lidiar a diario con
+              situaciones de mucho estrés. Con el tiempo desarrollé habilidades
+              de gestión emocional, liderazgo positivo, resiliencia,
+              comunicación asertiva, trabajo en equipo, y más. Pero a pesar de
+              todo esto, sentía que no era donde debía estar y que no estaba
+              aprovechando al máximo mi potencial.
+            </p>
+            <p>
+              Cuando empecé a interesarme por el desarrollo web quedé fascinado
+              por el mundo que se abría ante mis ojos. Desde el primer instante
+              supe que ese era mi lugar, así que dejé mi trabajo de profesor e
+              inicié mis estudios de Fullstack Web Development en Ironhack,
+              donde aprendí las bases que me permitirían diseñar y construir
+              aplicaciones web desde cero. Ahora mi objetivo es seguir
+              aprendiendo y mejorando dentro del sector tech.
+            </p>
+          </li>
+          <li class="flex flex-col gap-5">
+            <h4 class="text-2xl font-bold">💻Mi trabajo ideal</h4>
+            <p>
+              Lo que me apasiona del desarrollo web es que te da la capacidad de
+              crear de la nada cualquier cosa que desees (no sin unos cuantos
+              quebraderos de cabeza y algunas horillas resolviendo bugs 😅).
+              Pero oye, ¿y lo bien que me lo paso dándole vueltas al coco para
+              encontrar lo que falla y la forma de arreglarlo? Y esa sensación
+              de euforia cuando todo funciona es de las más satisfactorias que
+              se pueden experimentar.
+            </p>
+            <p>
+              Mi trabajo ideal sería uno en el que además de tener una buena
+              estabilidad económica pueda dedicarme a lo que me apasiona creando
+              herramientas que ahorren tiempo y esfuerzo a las personas para que
+              lo puedan invertir en sí mismas o en sus seres queridos y que les
+              ayuden a mejorar día a día ya sea a nivel personal o profesional.
+              Por eso siento que en el mundo tech he encontrado por fin mi
+              lugar.
+            </p>
+          </li>
+          <li>
+            <h4 class="text-2xl font-bold">💡Curiosidades</h4>
+            <ul class="list-disc pl-5">
+              <li>
+                <span class="font-bold text-blue-400">El Violinista Pirata☠️🎻:</span>  Mi nickname surgió por una pieza
+                musical para violín y piano que escribió para mí la talentosa
+                soprano y compositora catalana Anna Campmany y que tiene un aire
+                muy piratesco.
+              </li>
+              <li>
+                <span class="font-bold text-blue-400">Mi lado friki 👾:</span>  Entre mis aficiones destacan los juegos de
+                mesa, los videojuegos, ver anime y, muy recientemente, la
+                esgrima histórica japonesa. Por otro lado, me gustan y se me dan
+                bien los juegos de estrategia como el ajedrez y soy un ferviente
+                apasionado del futbolín.
+              </li>
+              <li>
+                <span class="font-bold text-blue-400">Tu bachatero mami🕺:</span>  Pese a mi apariencia tranquila, me gustan
+                mucho los bailes latinos y me defiendo bastante bien bailando
+                salsa y bachata.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h4 class="text-2xl font-bold">🌟Mis superpoderes</h4>
+            <ul class="list-disc pl-5">
+              <li>
+                <span class="font-bold text-blue-400"> Aura anti-estrés 🧘‍♂️:</span> Mi carácter tranquilo y apacible genera un
+                efecto relajante en las personas de mi alrededor reduciendo la ansiedad y el estrés.
+              </li>
+              <li>
+                <span class="font-bold text-blue-400">Cookie-parser 🍪:</span>  Me aficioné a la repostería y hago unas
+                galletas de avena con chocolate buenísimas! Aceptas las
+                cookies...?
+              </li>
+              <li>
+                <span class="font-bold text-blue-400">Confesionario 🗣️:</span>  Mi capacidad de escucha activa y mi actitud
+                respetuosa y sociable hacen que a menudo la gente me cuente en
+                confianza cosas muy personales.
+              </li>
+              <li>
+                <span class="font-bold text-blue-400">Oído absoluto 👂:</span>  Tengo la capacidad de detectar qué nota
+                musical está sonando y también tocar de oído cualquier melodía
+                con un instrumento musical (solo escuchándola unas pocas veces,
+                sin necesidad de leer la partitura).
+              </li>
+              <li>
+                <span class="font-bold text-blue-400">Chico con suerte 🍀:</span>  Me considero una persona bastante
+                afortunada en general. Aunque este superpoder se puede volver en
+                mi contra en los juegos de mesa ya que a veces la gente se cansa
+                de jugar conmigo 😅
+              </li>
+            </ul>
+          </li>
+        </ul>
       </article>
     </section>
 
     <section id="projects" class="py-15">
       <div class="mx-auto max-w-72">
         <h3 class="text-4xl font-bold">Mis Proyectos</h3>
-        <ul class="text-green-950 py-10 flex flex-wrap justify-between gap-20">
-          <li class="bg-green-50 h-96 rounded-md w-72">
-              <img src="./assets/python-says-img.jpeg" alt="imagen del proyecto python says" class="h-1/3 w-full object-cover object-top">
-              <div class="p-4 flex flex-col justify-between h-2/3">
-                <h4 class="text-lg font-bold">Python Says</h4>
-                <p>
-                  Juego para móviles inspirado en Simón Dice.
-                </p>
-                <p>
-                  <span class="font-bold">Tech:</span>
-                   HTML, CSS, JavaScript
-                </p>
-                <a target="_blank" href="https://github.com/Violinistapirata/Python-Says">
-                <button class="bg-green-400 text-green-50 font-bold flex gap-4 py-2 w-32 justify-center rounded-md border-2 border-green-400 hover:bg-green-50 hover:text-green-400 transition-colors duration-300">
+        <ul class="flex flex-wrap justify-between gap-20 py-10 text-green-950">
+          <li class="h-96 w-72 overflow-hidden rounded-md bg-green-50">
+            <img
+              src="./assets/python-says-img.jpeg"
+              alt="imagen del proyecto python says"
+              class="h-1/3 w-full object-cover object-top"
+            />
+            <div class="flex h-2/3 flex-col justify-between p-4">
+              <h4 class="text-lg font-bold">Python Says</h4>
+              <p>Juego para móviles inspirado en Simón Dice.</p>
+              <p>
+                <span class="font-bold">Tech:</span>
+                HTML, CSS, JavaScript
+              </p>
+              <a
+                target="_blank"
+                href="https://github.com/Violinistapirata/Python-Says"
+              >
+                <button
+                  class="flex w-32 justify-center gap-4 rounded-md border-2 border-blue-500 bg-blue-500 py-2 font-bold text-blue-50 transition-colors duration-300 hover:bg-blue-50 hover:text-blue-500"
+                >
                   <span>Visitar</span>
-                  <svg fill="currentColor" width="20px" height="20px" viewBox="0 0 32.00 32.00" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                    
-                    <g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(1.4399999999999995,1.4399999999999995), scale(0.91)"/>
-                    
-                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-                    
-                    <g id="SVGRepo_iconCarrier"> <title>github</title> <path d="M16 1.375c-8.282 0-14.996 6.714-14.996 14.996 0 6.585 4.245 12.18 10.148 14.195l0.106 0.031c0.75 0.141 1.025-0.322 1.025-0.721 0-0.356-0.012-1.3-0.019-2.549-4.171 0.905-5.051-2.012-5.051-2.012-0.288-0.925-0.878-1.685-1.653-2.184l-0.016-0.009c-1.358-0.93 0.105-0.911 0.105-0.911 0.987 0.139 1.814 0.718 2.289 1.53l0.008 0.015c0.554 0.995 1.6 1.657 2.801 1.657 0.576 0 1.116-0.152 1.582-0.419l-0.016 0.008c0.072-0.791 0.421-1.489 0.949-2.005l0.001-0.001c-3.33-0.375-6.831-1.665-6.831-7.41-0-0.027-0.001-0.058-0.001-0.089 0-1.521 0.587-2.905 1.547-3.938l-0.003 0.004c-0.203-0.542-0.321-1.168-0.321-1.821 0-0.777 0.166-1.516 0.465-2.182l-0.014 0.034s1.256-0.402 4.124 1.537c1.124-0.321 2.415-0.506 3.749-0.506s2.625 0.185 3.849 0.53l-0.1-0.024c2.849-1.939 4.105-1.537 4.105-1.537 0.285 0.642 0.451 1.39 0.451 2.177 0 0.642-0.11 1.258-0.313 1.83l0.012-0.038c0.953 1.032 1.538 2.416 1.538 3.937 0 0.031-0 0.061-0.001 0.091l0-0.005c0 5.761-3.505 7.029-6.842 7.398 0.632 0.647 1.022 1.532 1.022 2.509 0 0.093-0.004 0.186-0.011 0.278l0.001-0.012c0 2.007-0.019 3.619-0.019 4.106 0 0.394 0.262 0.862 1.031 0.712 6.028-2.029 10.292-7.629 10.292-14.226 0-8.272-6.706-14.977-14.977-14.977-0.006 0-0.013 0-0.019 0h0.001z"/> </g>
-                    
+                  <svg
+                    fill="currentColor"
+                    width="20px"
+                    height="20px"
+                    viewBox="0 0 32.00 32.00"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      id="SVGRepo_bgCarrier"
+                      stroke-width="0"
+                      transform="translate(1.4399999999999995,1.4399999999999995), scale(0.91)"
+                    />
+
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+
+                    <g id="SVGRepo_iconCarrier">
+                      <title>github</title>
+                      <path
+                        d="M16 1.375c-8.282 0-14.996 6.714-14.996 14.996 0 6.585 4.245 12.18 10.148 14.195l0.106 0.031c0.75 0.141 1.025-0.322 1.025-0.721 0-0.356-0.012-1.3-0.019-2.549-4.171 0.905-5.051-2.012-5.051-2.012-0.288-0.925-0.878-1.685-1.653-2.184l-0.016-0.009c-1.358-0.93 0.105-0.911 0.105-0.911 0.987 0.139 1.814 0.718 2.289 1.53l0.008 0.015c0.554 0.995 1.6 1.657 2.801 1.657 0.576 0 1.116-0.152 1.582-0.419l-0.016 0.008c0.072-0.791 0.421-1.489 0.949-2.005l0.001-0.001c-3.33-0.375-6.831-1.665-6.831-7.41-0-0.027-0.001-0.058-0.001-0.089 0-1.521 0.587-2.905 1.547-3.938l-0.003 0.004c-0.203-0.542-0.321-1.168-0.321-1.821 0-0.777 0.166-1.516 0.465-2.182l-0.014 0.034s1.256-0.402 4.124 1.537c1.124-0.321 2.415-0.506 3.749-0.506s2.625 0.185 3.849 0.53l-0.1-0.024c2.849-1.939 4.105-1.537 4.105-1.537 0.285 0.642 0.451 1.39 0.451 2.177 0 0.642-0.11 1.258-0.313 1.83l0.012-0.038c0.953 1.032 1.538 2.416 1.538 3.937 0 0.031-0 0.061-0.001 0.091l0-0.005c0 5.761-3.505 7.029-6.842 7.398 0.632 0.647 1.022 1.532 1.022 2.509 0 0.093-0.004 0.186-0.011 0.278l0.001-0.012c0 2.007-0.019 3.619-0.019 4.106 0 0.394 0.262 0.862 1.031 0.712 6.028-2.029 10.292-7.629 10.292-14.226 0-8.272-6.706-14.977-14.977-14.977-0.006 0-0.013 0-0.019 0h0.001z"
+                      />
+                    </g>
                   </svg>
                 </button>
-                </a>
-              </div>
+              </a>
+            </div>
           </li>
         </ul>
       </div>
-
     </section>
     <script src="./scripts/navigation.js"></script>
   </body>

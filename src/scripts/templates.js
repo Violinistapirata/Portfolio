@@ -17,8 +17,12 @@ projects.forEach((project) => {
     description.textContent = project.description;
     const tech = card.querySelectorAll("p")[1];
     tech.insertAdjacentHTML("beforeend", project.tech);
-    const link = card.querySelector("a");
-    link.href = project.link;
+    const docsLink = card.querySelector("a");
+    docsLink.href = project.docsLink;
+    const appLink = card.querySelectorAll("a")[1];
+    appLink.href = project.appLink;
+    
+    console.log(appLink);
     
     projectsUl.appendChild(card);
 });

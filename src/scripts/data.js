@@ -4,28 +4,32 @@ export const projects = [
         image: { src: "./assets/Images/python-says-img.jpeg", alt: "imagen del proyecto python says" },
         description: "Juego para móviles inspirado en Simón Dice.",
         tech: "HTML, CSS, JavaScript",
-        link: "https://github.com/Violinistapirata/Python-Says"
+        docsLink: "https://github.com/Violinistapirata/Python-Says",
+        appLink: "https://violinistapirata.github.io/Python-Says/"
     },
     {
         title: "Kanban-Board",
         image: { src: "./assets/Images/kanban-board-img.jpg", alt: "imagen del proyecto Kanban-Board" },
         description: "Una aplicación de gestión de tareas estilo Kanban.",
         tech: "HTML, CSS, JavaScript, React.js, Node.js, Supabase",
-        link: "https://github.com/Violinistapirata/Kanban-Board"
+        docsLink: "https://github.com/Violinistapirata/Kanban-Board",
+        appLink: "https://k-nban-board.netlify.app/"
     },
     {
         title: "Git-Arr",
         image: { src: "./assets/Images/git-arr-img.png", alt: "imagen del proyecto Git-Arr" },
         description: "E-commerce de venta de guitarras.",
         tech: "HTML, CSS, JavaScript, Node.js, React.js., Supabase, Cypress",
-        link: "https://github.com/Violinistapirata/Git-Arr"
+        docsLink: "https://github.com/Violinistapirata/Git-Arr",
+        appLink: "https://git-arr.netlify.app/"
     },
     {
         title: "CrewMates",
         image: { src: "./assets/Images/crewmates-img.png", alt: "imagen del proyecto CrewMates" },
         description: "Aplicación de gestión de tareas para compañeros de piso con temática pirata",
         tech: "HTML, CSS, JavaScript, Node.js, React.js., MongoDB, Express.js.",
-        link: "https://github.com/Violinistapirata/CrewMates_client"
+        docsLink: "https://github.com/Violinistapirata/CrewMates_client",
+        appLink: "https://crewmates-app.netlify.app/"
     },
 ];
 

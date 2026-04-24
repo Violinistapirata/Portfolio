@@ -42,8 +42,8 @@ export const projects = [
     {
         title: "SherpApp UI",
         image: { src: "./assets/Images/sherpapp-ui-img.png", alt: "imagen de la interfaz de Storybook de SherpApp UI" },
-        description: "Librería de componentes UI para la aplicación SherpApp",
-        tech: "HTML, CSS, TypeScript, React.js., Next.js, Tailwind CSS",
+        description: "Librería de componentes UI para la aplicación SherpApp con Storybook y Atomic Design",
+        tech: "HTML, CSS, TypeScript, React.js., Next.js, Tailwind CSS, Vitest, Storybook",
         docsLink: "https://github.com/SherpApp/ui",
         appLink: ""
     },

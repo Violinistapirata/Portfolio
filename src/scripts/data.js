@@ -31,6 +31,14 @@ export const projects = [
         docsLink: "https://github.com/Violinistapirata/CrewMates_client",
         appLink: "https://crewmates-app.netlify.app/"
     },
+    {
+        title: "SherpApp Landing",
+        image: { src: "./assets/Images/sherpapp-landing-img.png", alt: "imagen de la Landing page de SherpApp" },
+        description: "Landing page para la aplicación SherpApp",
+        tech: "HTML, CSS, TypeScript, React.js., Next.js, Tailwind CSS",
+        docsLink: "https://github.com/SherpApp/landing",
+        appLink: "https://landing.sherp-app.com/"
+    },
 ];
 
 export const reviews = [

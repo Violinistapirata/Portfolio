@@ -39,6 +39,14 @@ export const projects = [
         docsLink: "https://github.com/SherpApp/landing",
         appLink: "https://landing.sherp-app.com/"
     },
+    {
+        title: "SherpApp UI",
+        image: { src: "./assets/Images/sherpapp-ui-img.png", alt: "imagen de la interfaz de Storybook de SherpApp UI" },
+        description: "Librería de componentes UI para la aplicación SherpApp",
+        tech: "HTML, CSS, TypeScript, React.js., Next.js, Tailwind CSS",
+        docsLink: "https://github.com/SherpApp/ui",
+        appLink: ""
+    },
 ];
 
 export const reviews = [
